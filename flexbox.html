@@ -7,12 +7,40 @@
     <title>FLEXBOX</title>
     <style>
         .container{
-            border: 3px dashed purple;
+            border: 3px solid purple;
             display: flex;
             justify-content: flex-end;
         }
+        .container3{
+            border: 3px solid purple;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .container4{
+            border: 3px solid red;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height:400px;
+        }
+        .container5{
+            border: 3px solid red;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            height:400px;
+         
+        }
+        .container6{
+            border: 3px solid red;
+            display: flex;
+            flex-wrap: wrap-reverse;
+            height:400px;
+         
+        }
         .container2{
-            border: 3px dashed purple;
+            border: 3px solid purple;
             display: flex;
             justify-content: center;
         }
@@ -20,7 +48,7 @@
             width: 140px;
             height: 140px;
             border:3px dashed tomato;
-            background-color: forestgreen;
+            background-color: lightgreen;
         }
     </style>
 </head>
@@ -35,6 +63,37 @@
         <div class="box">box-1</div>
         <div class="box">box-2</div>
         <div class="box">box-3</div>
+        <div class="box">box-4</div>
+    </div>
+    <div class="container3">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+    </div>
+    <div class="container4">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+    </div>
+    <div class="container5">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+    </div>
+    <div class="container6">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-4</div>
+        <div class="box">box-4</div>
+        <div class="box">box-4</div>
+        <div class="box">box-4</div>
+        <div class="box">box-4</div>
+        <div class="box">box-4</div>
         <div class="box">box-4</div>
     </div>
 </body>
